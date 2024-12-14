@@ -56,7 +56,19 @@ color: #316ff6 ;
     position: relative;
 }
 
-.header__right i{
+.header__right > i {
     padding:0 30px;
     cursor: pointer;
  }
+
+ .header__right > .i{
+    background-color:white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin - left:10px;
+ } 
